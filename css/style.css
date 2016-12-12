@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Offside;
+    src: url(../font/Offside-Regular.ttf);
+}
+
+body {
+	margin: 0px;
+}
+
+body {
+	background-image: url("../img/tree.jpg");
+	background-size: cover;
+}
+
+header,section {
+	color: #FFF;
+	font-family: 'Offside', cursive;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+header hr {
+	width: 40%;
+	height: 2px;
+	background-color: #FFF;
+	border: none;
+}
+
+.menu a,header a {
+	text-decoration: none;
+	color: #FFF;
+	transition: color 0.3s;
+}
+
+header div a {
+	font-size: 20px;
+	padding: 20px;
+}
+
+header a:hover, .menu a:hover {
+	color: #67C255;
+}
+
+#title {
+	font-size: 60px;
+}
+
+section div{
+	width: 80%;
+	text-align: justify;
+}
+
+section div .menu {
+	text-align: center;
+	width: 100%;
+}
+
+section div h1 { 
+	text-align: center;
+}
+
+.menu hr {
+	margin-top: 50px;
+	width: 40%;
+	height: 1px;
+	background-color: #FFF;
+	border: none;
+}
+
+.menu {
+	font-size: 18px;
+}
+
+#fotos div {
+	text-align: center;
+}
+
+
+#fotos ul li {
+	display: inline-flex;
+	padding-top: 30px;
+}
+
+#fotos img {
+	width: 200px;
+	height: 150px;
+	border-radius: 30%;
+}
+
+#dvImg {
+	background-image: url("../img/morango.jpg");
+	background-size: cover;
+}
+
+#contato div{ 
+	text-align: center;
+}
+
+#mapa {
+	width: 50%;
+	height: 350px;
+}
+
+@media all and (max-width: 500px) {
+	#title {
+		font-size: 50px;
+	}
+
+	#header hr {
+		width: 80%;
+	}
+
+	.menu {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		padding-bottom: 50px;
+	}
+
+	#fotos ul{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	#fotos img {
+		padding-bottom: 20px;
+	}
+
+	#mapa {
+		width: 100%;
+	}
+}

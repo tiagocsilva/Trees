@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title>Trees</title>
+		<meta name="theme-color" content="#67C255">
+		<meta charset="UTF-8">
+		<!-- JQuery 3.1.1 -->
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<!-- JQuery Modal -->
+		<script src="js/jquery.modal.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/jquery.modal.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- My CSS -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- My Script -->
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body>
+		<header id="header">			
+			<a href="javascript:switchPage('header')"><span id="title">Trees</span></a>
+			<hr>
+			<div class="menu">
+				<a href="javascript:switchPage('sobre')">Sobre</a> - <a href="javascript:switchPage('fotos')">Fotos</a> - <a href="javascript:switchPage('contato')">Contato</a>
+			</div>
+		</header>
+		<section id="sobre">
+			<div>
+				<h1>Sobre</h1>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed congue tellus, vel tincidunt tortor. Ut sit amet nisl tellus. Donec tincidunt vel ex eget congue. Aliquam auctor sit amet arcu ac blandit. Phasellus rhoncus interdum enim ullamcorper molestie. Sed dignissim vehicula quam et volutpat. Maecenas luctus lobortis diam ac consequat. Donec sem magna, suscipit sit amet sem ut, sollicitudin interdum ex.</p>
+
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proin ullamcorper euismod arcu non semper. Nulla facilisi. Vestibulum bibendum orci et justo blandit hendrerit. Nam nec imperdiet purus. Donec pharetra eget eros non aliquam. Suspendisse auctor, lectus vitae ultrices laoreet, felis ligula rutrum ex, id blandit lectus eros id tortor. Ut posuere blandit purus, tempor imperdiet metus suscipit et. Sed dui dui, imperdiet ut aliquam vitae, maximus eu massa. Nullam non risus at est tempor auctor mollis id tortor. Sed congue tortor nulla, sit amet facilisis risus iaculis vitae. Nullam eu ipsum quis ipsum tincidunt mollis.</p>
+				<div class="menu">
+					<hr>				
+					<a href="javascript:switchPage('header')">Home</a> - <a href="javascript:switchPage('fotos')">Fotos</a> - <a href="javascript:switchPage('contato')">Contato</a>
+				</div>
+			</div>
+		</section>
+		<section id="fotos">
+			<div>
+				<h1>Fotos</h1>
+				<ul>
+					<a href="javascript:openModal('tree-light')"><li><img src="img/tree-light.jpg"></li></a>
+					<a href="javascript:openModal('vulture')"><li><img src="img/vulture.jpg"></li></a>
+					<a href="javascript:openModal('vinter')"><li><img src="img/vinter.jpg"></li></a>
+					<br>
+					<a href="javascript:openModal('pine')"><li><img src="img/pine.jpg"></li></a>
+					<a href="javascript:openModal('joshua-tree')"><li><img src="img/joshua-tree.jpg"></li></a>
+					<a href="javascript:openModal('joshua')"><li><img src="img/joshua.jpg"></li></a>
+				</ul>
+				<div id="dvImg"></div>
+				<div class="menu">
+					<hr>				
+					<a href="javascript:switchPage('header')">Home</a> - <a href="javascript:switchPage('sobre')">Sobre o Projeto</a> - <a href="javascript:switchPage('contato')">Contato</a>
+				</div>
+			</div>
+		</section>
+		<section id="contato">
+			<div>
+				<h1>Contato</h1>
+				<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.6863231429197!2d-47.23342548545803!3d-22.851091885040184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8bc16c66f0bed%3A0x1aee5c111efc6196!2sInstituto+Federal+de+Educa%C3%A7%C3%A3o%2C+Ci%C3%AAncia+e+Tecnologia+de+S%C3%A3o+Paulo%2C+C%C3%A2mpus+Hortol%C3%A2ndia!5e0!3m2!1spt-BR!2sbr!4v1481575792374" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<br>
+				<br>
+				Av. Thereza Ana Cecon Breda, S/N - Vila Sao Pedro, Hortolândia - SP - 13183-250 -  (19) 3865-8070
+
+				<div class="menu">
+					<hr>				
+					<a href="javascript:switchPage('header')">Home</a> - <a href="javascript:switchPage('sobre')">Sobre o Projeto</a> - <a href="javascript:switchPage('fotos')">Fotos</a>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
